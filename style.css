@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.text_center{
+    text-align: center;
+}
+.text_left{
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+.fixed_width{
+    width: 1270px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.header_section{
+    background: #686de0;
+}
+.header_left{
+    width: 30%;
+}
+.header_left img {
+    width: 60px;
+    height: auto;
+    padding-left: 21px;
+    padding-top: 19px;
+}
+.header_right{
+    width: 70%;
+}
+.header_right ul{
+    text-align: right;
+}
+.header_right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header_right ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 30px;
+    line-height: 74px;
+    display: block;
+    border-right: 1px solid #ddd;
+    font-size: 20px;
+    transition: .4s;
+}
+.header_right ul li a:hover{
+    background: #4834d4;
+}
+.banner{
+    background: url(https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 176px;
+}
+.banner_caption{}
+.banner_caption h2 {
+    background: rgba(0,0,0,.4);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
+.banner_caption h1 {
+    background: rgba(104, 109, 224, .5);
+    margin-top: 16px;
+    width: 362px;
+    margin-left: 451px;
+    border-radius: 5px;
+}
+
+/* service section */
+.about {
+    margin-top: 44px;
+    width: 777px;
+    margin: auto;
+}
+.about h2 {
+    margin-top: 20px;
+}
+.about p{}
+.service{}
+.service_item {
+    width: 31.3%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 34px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.service_item span {
+    padding: 9px 16px;
+    color: #fff;
+    background: #686de0;
+    font-size: 20px;
+    margin-top: -4px;
+    display: inline-block;
+    border-radius: 15px 0;
+}
+.service_item h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.service_item p{}
+/* blog section */
+.blog_container{
+    margin-top: 30px;
+}
+.blog-left-content{
+    width: 70%;
+}
+.blog_item{}
+.blog_item img {
+    width: 160px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.blog_item p{
+    margin-bottom: 20px;
+}
+.blog_right_notification{
+    width: 30%;
+}
+.blog_right_notification h2 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.blog_right_notification ul{}
+.blog_right_notification ul li {
+    list-style: none;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.blog_right_notification h2 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.footer{
+    background: #2c3e50;
+    padding: 20px;
+}
+.footer_left{
+    width: 40%;
+}
+.footer_left p{
+    color: #fff;
+    text-align: center;
+}
+.footer_right{
+    width: 60%;
+}
+.footer_right ul{
+    text-align: center;
+}
+.footer_right ul li{
+    display: inline-block;
+}
+.footer_right ul li a{
+    display: block;
+    color: #fff;
+    padding: 9px;
+    font-size: 18px;
+}
